@@ -13,9 +13,7 @@
       (println "You have to tell me what to do. Available options:" options)
       (if (= arg "fizzbuzz")
         (fizzbuzz)
-        (println "Option unavailable:" arg)))
-    )
-  )
+        (println "Option unavailable:" arg)))))
 
 (defn fizzbuzz
   "Fizzbuzz"
@@ -29,6 +27,4 @@
                       (println "buzz")
                       (println i))))
                 )
-              (range 1 101)   
-              )
-         ))
+              (range 1 101))))
